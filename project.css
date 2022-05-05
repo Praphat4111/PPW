@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Jura:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Jura:wght@300;400&family=K2D:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Jura', sans-serif;
+    background-color: #1B1A27;
+}
+.challenge{
+    margin: 50px;
+}
+.challenge h1{
+    color: white;
+    text-transform: uppercase;
+}
+.card{
+    margin: 50px;
+    padding: 40px 30px;
+    width: auto;
+    height: 120px;
+    border-radius: 10px;
+    background-color: rgb(200, 207, 234);
+    position: relative;
+    background-image: url(./img/space.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+    
+    
+}
+.card h1{
+    
+    color: rgb(255, 255, 255);
+    
+}
+
+.card:hover{
+   filter: drop-shadow(0px 10px 4px rgb(85, 89, 95));
+}

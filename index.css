@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Jura:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@200&family=Jura:wght@300;400&family=K2D:wght@200&display=swap');
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Jura', sans-serif;
+    background-color: #1B1A27;
+}
+
+.container{
+    height: 550px;
+    margin-top: 100px;
+    margin-left: 50px;
+    padding: 50px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    z-index: 1;
+}
+.content-left{
+    padding:0 80px;
+    color: white;
+    
+}
+.profile{
+    align-items: center;
+}
+.imgProfile{
+    width: 335px;
+    border-radius: 100%;
+   
+}
+
+.content-right{
+    padding:0 80px;
+    color: white;
+    display:flex;
+    flex-direction: column;
+   
+}
+
+.expre{
+    display: flex;
+}
+.right-menu{
+    padding: 40px 20px;
+}
+.zero{
+    font-family: 'K2D', sans-serif;
+    font-size: 96px;
+    margin: 0;
+}
+.right-list{
+    margin-bottom: 5px;
+     font-size: 20px;
+     font-weight: bold;
+     text-transform: uppercase;
+     list-style: none;
+}
+.center{
+    width: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.circle{
+    
+    width: 560px;
+    height: 560px;
+    border:1px solid rgb(82, 82, 82,30%);
+    border-radius: 100%;
+    margin: auto;
+    padding: auto;
+    
+    position: absolute;
+    
+    z-index: -1;
+}
+
+footer{
+    height: 200px;
+    padding: 20px;
+    background-color:  #242424;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+footer p{
+    margin: 20px;   
+    
+}
+
+.menu_footer{
+    display: flex;
+    list-style: none;
+   
+}
+.menu_footer li {
+    margin-left: 10px;
+}
+.menu_footer li .icon{
+    width: 30px;
+    height: 30px;
+    color: white; 
+}
+
+.info{
+    font-size: 18px;
+    margin-right: 20px;
+}
+
+
+
+
+
+
