@@ -14,14 +14,16 @@ nav{
     list-style: none;
     text-transform: uppercase;
 }
-.list{
+.menu li{
     text-align: center;
     margin: 0 40px;
-    width: 100px;
-    flex-grow: 1;
+   
+   
 }
-.list-home{
-    margin: 0 50px;
-    
-    
-}
+
+@media screen and (max-width: 600px) {
+    .menu li{
+        font-size: 14px;
+        margin: 0 20px;
+    }
+}   
