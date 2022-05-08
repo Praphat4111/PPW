@@ -13,7 +13,7 @@ body{
 .challenge{
     margin: 50px;
 }
-.challenge h1{
+.challenge h1 ,p{
     color: white;
     text-transform: uppercase;
 }
